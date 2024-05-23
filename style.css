@@ -1,0 +1,238 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #009688;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ol li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ol li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos básicos y para secciones específicas omitidos por brevedad */
+
+/* Estilos para el formulario de contacto */
+#contacto form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para los botones de redes sociales */
+.social-links a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #555;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
+}
+
+/* Estilos Luz adecuada para plantas de interior */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #009688;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+}
+
+img, video {
+    max-width: 50% auto ;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+}
+
+
+/* Sección Logo */
+.header-content {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: center; /* Alinea horizontalmente los elementos al inicio */
+    gap: 20px; /* Espacio entre el logo y el texto */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.logo-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #a2d9a2; /* Color de fondo del círculo */
+    border-radius: 50%; /* Hace que el div sea completamente circular */
+    width: 50%;
+    max-width: 300px; /* Puedes ajustar el tamaño máximo según necesites */
+    aspect-ratio: 1; /* Mantiene la relación de aspecto del círculo */
+}
+
+.logo-leaf {
+    width: 20%; /* Porcentaje del contenedor .logo-circle */
+    height: 20%; /* Mantiene la proporción basada en el tamaño del contenedor */
+    background-color: green;
+    clip-path: polygon(0.3s 0%, 0% 0%, 0% 0%, 25% 0%, 0% 0%);
+}
+
+.logo-text {
+    text-align: center;
+}
+
+.main-title {
+    font-size: calc(5px + 1vw); /* Escala según el tamaño de la ventana */
+    color: darkgreen;
+    margin: 0;
+}
+
+.sub-title {
+    font-size: calc(3px + 1vw); /* Escala según el tamaño de la ventana */
+    color: darkgreen;
+    margin: 0;
+}
+
